@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agentSearch": {
+      "type": "streamable-http",
+      "url": "https://tatanexus.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MCP_API_KEY}"
+      }
+    }
+  }
+}
